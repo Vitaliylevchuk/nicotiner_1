@@ -158,7 +158,7 @@ public class Buttons {
         JLabel jLabel1 = new JLabel();
         jLabel1.setBounds(150, 170, 150, 210);
         health.calcCloudRation(vape);
-        jLabel1.setText(String.format("<html>Воздух / Пар<br> %s / %s<br><br>Внимание:<br>Чем туже затяжка тем быстрее в насыщаетесь никотином!<html>", 100 - health.getCloudRatio(), health.getCloudRatio()));
+        jLabel1.setText(String.format("<html>Воздух / Пар<br> %s / %s<br><br>Внимание:<br>Чем туже затяжка тем быстрее вы насыщаетесь никотином!<html>", 100 - health.getCloudRatio(), health.getCloudRatio()));
         jLabel1.setOpaque(true);
         jLabel1.setBackground(backgroundColor);
         jLabel1.setForeground(foregroundColor);
